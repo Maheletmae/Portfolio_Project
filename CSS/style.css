@@ -58,11 +58,14 @@ h1 {
 .hero {
   background: gainsboro;
   margin: 10px 0px 60px 0px;
+
   max-height: 750px;
 }
 
+.block2 {
+  padding: 0px 0px 40px 0px;
+}
 .img1 {
-  box-sizing: border-box;
   max-width: 500px;
   width: 100%;
   float: right;
@@ -71,8 +74,8 @@ h1 {
 
 .textblock {
   font-size: 25px;
-  padding: 280px 0px 10px 0px;
-  width: 450px;
+  padding: 200px 0px 0px 0px;
+  max-width: 450px;
 }
 .color1 {
   background: blueviolet;
@@ -107,6 +110,7 @@ h1 {
 }
 .row {
   margin: 150px 0px;
+  box-sizing: border-box;
 }
 img {
   width: 100%;
@@ -195,28 +199,33 @@ img {
   .adjectives {
     text-align: center;
   }
+  .hero {
+    padding: 50px 10px 110px 10px;
+  }
   img {
     display: block;
     text-align: center;
-    width: 0 auto;
+    margin: 0 auto;
+    max-width: 100px;
+    box-sizing: border-box;
+
+    object-fit: contain;
+    width: 100%;
   }
-  .hero img {
-    max-width: 100%;
-    height: auto;
-    padding: 0px;
+  .row {
+    display: block;
+    margin: 50px auto;
+  }
+  .img1 {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
   }
   .textblock {
     padding: 100px 0px 10px 0px;
   }
-  .row {
-    margin: 50px 10px;
-  }
-
-  .hero {
-    padding: 10px 10px 50px 10px;
-  }
-
   p {
     text-align: center;
+    font-size: 30px;
   }
 }
