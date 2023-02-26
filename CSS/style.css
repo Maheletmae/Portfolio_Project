@@ -68,19 +68,19 @@ h1 {
   padding: 280px 0px 10px 0px;
 }
 .color1 {
-  background: #6c63ff;
-  padding: 15px 25px;
-  border-radius: 4px;
-  border: 1px solid gainsboro;
-}
-.color2 {
   background: #885df1;
   padding: 15px 25px;
   border-radius: 4px;
   border: 1px solid gainsboro;
 }
-.color3 {
+.color2 {
   background: gray;
+  padding: 15px 25px;
+  border-radius: 4px;
+  border: 1px solid gainsboro;
+}
+.color3 {
+  background: #bbb2a8;
   padding: 15px 25px;
   border-radius: 4px;
   border: 1px solid gainsboro;
@@ -106,7 +106,7 @@ h1 {
 .getintouch {
   text-align: center;
   display: block;
-  margin: 40px auto;
+  margin: 60px auto;
   padding: 20px 40px;
   border: 2px solid #885df1;
   border-radius: 20px;
@@ -120,7 +120,7 @@ h1 {
 }
 
 .footer {
-  background: #885df1;
+  background: #bbb2a8;
   color: white;
 
   margin: 0 auto;
@@ -130,6 +130,8 @@ h1 {
   font-size: 15px;
 }
 
+/* ---------------------------------- */
+/* ----------- RESPONSIVE ------------- */
 @media (max-width: 600px) {
   .hi {
     font-size: 40px;
@@ -145,7 +147,16 @@ h1 {
   }
   img {
     text-align: center;
-    width: auto;
+    width: 0 auto;
+  }
+  .hero img {
+    width: fit-content;
+  }
+  .textblock {
+    padding: 150px 0px 10px 0px;
+  }
+  .row {
+    margin: 100px 10px;
   }
   .linkapp {
     display: block;
@@ -154,7 +165,7 @@ h1 {
     padding: 10px 60px;
   }
   .hero {
-    padding: 150px 10px 50px 10px;
+    padding: 10px 10px 50px 10px;
   }
 
   p {
