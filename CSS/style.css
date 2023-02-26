@@ -1,10 +1,13 @@
-body {
-  background: wheat;
-}
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  background: wheat;
+  font-family: var(--heading-font-family);
 }
 
 /* PART 1 - INTRO & LINKS*/
@@ -55,20 +58,24 @@ h1 {
 .hero {
   background: gainsboro;
   margin: 10px 0px 60px 0px;
+  max-height: 750px;
 }
-.hero .row {
-  padding: 80px 10px 60px 10px;
+
+.img1 {
+  box-sizing: border-box;
+  max-width: 500px;
+  width: 100%;
+  float: right;
+  margin: 0px 60px 0px 0px;
 }
-.hero img {
-  width: fit-content;
-  padding: 0px 80px 0px 0px;
-}
+
 .textblock {
   font-size: 25px;
   padding: 280px 0px 10px 0px;
+  width: 450px;
 }
 .color1 {
-  background: #885df1;
+  background: blueviolet;
   padding: 15px 25px;
   border-radius: 4px;
   border: 1px solid gainsboro;
@@ -101,6 +108,9 @@ h1 {
 .row {
   margin: 150px 0px;
 }
+img {
+  width: 100%;
+}
 
 /* --- PART 3 - PROJECTS & SPECIALIZATIONS --- */
 .getintouch {
@@ -108,14 +118,14 @@ h1 {
   display: block;
   margin: 60px auto;
   padding: 20px 40px;
-  border: 2px solid #885df1;
+  border: 2px solid blueviolet;
   border-radius: 20px;
   background: white;
   box-shadow: var(--box-shadow);
 }
 .getintouch:hover {
   color: white;
-  background-color: #885df1;
+  background-color: blueviolet;
   transform: scale(1.03);
 }
 
@@ -128,6 +138,46 @@ h1 {
 .footer p {
   padding: 80px 0px 20px 0px;
   font-size: 15px;
+}
+
+/* -------------- EXTERNAL OVERLAY CODE ---------- */
+.boxx {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: blueviolet;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.boxx:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 /* ---------------------------------- */
@@ -146,24 +196,22 @@ h1 {
     text-align: center;
   }
   img {
+    display: block;
     text-align: center;
     width: 0 auto;
   }
   .hero img {
-    width: fit-content;
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
   }
   .textblock {
-    padding: 150px 0px 10px 0px;
+    padding: 100px 0px 10px 0px;
   }
   .row {
-    margin: 100px 10px;
+    margin: 50px 10px;
   }
-  .linkapp {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    padding: 10px 60px;
-  }
+
   .hero {
     padding: 10px 10px 50px 10px;
   }
