@@ -41,7 +41,7 @@ body {
 .iconss {
   display: block;
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 40px 10px 40px;
 }
 
 /* PART 1 - INTRO & LINKS*/
@@ -176,8 +176,8 @@ img {
 .getintouch {
   text-align: center;
   display: block;
-  margin: 60px auto;
-  padding: 20px 40px;
+  margin: 50px auto;
+  padding: 25px 50px;
   border: 2px solid blueviolet;
   border-radius: 20px;
   background: white;
@@ -198,6 +198,9 @@ img {
 .footer p {
   padding: 80px 0px 20px 0px;
   font-size: 15px;
+}
+.footer p:hover {
+  color: black;
 }
 
 /* -------------- EXTERNAL OVERLAY CODE ---------- */
