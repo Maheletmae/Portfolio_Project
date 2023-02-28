@@ -10,16 +10,68 @@ body {
   font-family: var(--heading-font-family);
 }
 
+/*      ABOUT PAGE        */
+.minihero row {
+  margin: 0 auto;
+}
+.minihero {
+  background: #f9f7fe;
+  border-radius: 20px;
+  margin: 60px 140px;
+  padding: 49px 119px;
+}
+.linkcontact2 {
+  background: #6c63ff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: aliceblue;
+  text-decoration: none;
+  margin: 20px;
+  font-family: var(--default-font-family);
+}
+.linkcontact2:hover {
+  color: #f5f2fe;
+  text-decoration: none;
+}
+.btn.btn-rounded {
+  border-radius: 50px;
+  background: rgba(108, 99, 255, 0.05);
+  color: #6c63ff;
+}
+.iconss {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
 /* PART 1 - INTRO & LINKS*/
 .name {
   font-size: 80px;
-}
-h1 {
   text-align: center;
 }
+.hi {
+  text-align: center;
+}
+.name2 {
+  font-size: 55px;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+}
+
 .message {
   color: gray;
   text-align: center;
+}
+.message2 {
+  font-size: 18px;
+}
+.firstparagraph {
+  font-family: var(--default-font-family);
+  color: rgba(39, 33, 66, 0.7);
+}
+
+.greenimg {
+  max-width: 500px;
 }
 .links {
   display: flex;
@@ -108,7 +160,7 @@ h1 {
 .container {
   margin: 0 auto;
 }
-.row {
+.container .row {
   margin: 150px 0px;
   box-sizing: border-box;
 }
