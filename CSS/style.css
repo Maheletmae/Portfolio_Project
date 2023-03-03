@@ -11,7 +11,7 @@ body {
 }
 
 /*      ABOUT PAGE        */
-.minihero row {
+.minihero .row {
   margin: 0 auto;
 }
 .minihero {
@@ -20,20 +20,28 @@ body {
   margin: 60px 140px;
   padding: 49px 119px;
 }
+
 .linkcontact2 {
   background: #6c63ff;
   padding: 20px 30px;
+  width: 100%;
   border-radius: 10px;
   color: aliceblue;
   text-decoration: none;
-  margin: 20px;
+  margin: 0px;
   font-family: var(--default-font-family);
 }
 .linkcontact2:hover {
   color: #f5f2fe;
   text-decoration: none;
 }
-.btn.btn-rounded {
+.linkc2 {
+  margin: 30px 0px 0px 0px;
+  display: block;
+  text-align: end;
+}
+
+.btn .btn-rounded {
   border-radius: 50px;
   background: rgba(108, 99, 255, 0.05);
   color: #6c63ff;
@@ -42,6 +50,85 @@ body {
   display: block;
   text-align: center;
   margin: 20px 40px 10px 40px;
+}
+.btn-icon {
+  width: 80px;
+  height: 80px;
+}
+/*      PORTFOLIO PAGE        */
+
+.hero2 {
+  background: rgba(138, 43, 226, 0.1);
+  margin: 50px 0px;
+  padding: 120px 119px;
+}
+
+.project_img {
+  border-radius: 20px;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.built_with {
+  color: gray;
+}
+.learnmore-btn {
+  background: blueviolet;
+  color: #f5f2fe;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+.titlespec {
+  font-size: 60px;
+  font-family: var(--heading-font-family);
+}
+.specializations {
+  margin: 0px 80px;
+}
+.getintouch {
+  text-align: center;
+  display: block;
+  margin: 50px auto;
+  padding: 25px 50px;
+  border: 2px solid blueviolet;
+  border-radius: 20px;
+  background: white;
+  box-shadow: var(--box-shadow);
+}
+.getintouch:hover {
+  color: white;
+  background-color: blueviolet;
+  transform: scale(1.03);
+}
+.minihero2 {
+  background: #f9f7fe;
+  border-radius: 20px;
+  margin: 60px 140px;
+  padding: 49px 119px;
+}
+.minirow2 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.getintouch2 {
+  max-width: 300px;
+  text-align: center;
+  display: block;
+  margin: 50px auto;
+  padding: 15px 15px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 15px;
+  background: blueviolet;
+  box-shadow: var(--box-shadow);
+}
+.getintouch2:hover {
+  color: blueviolet;
+  background-color: white;
+  transform: scale(1.03);
 }
 
 /* PART 1 - INTRO & LINKS*/
@@ -167,10 +254,6 @@ body {
 img {
   width: 100%;
 }
-.footer p {
-  text-align: center;
-  color: gray;
-}
 
 /* --- PART 3 - PROJECTS & SPECIALIZATIONS --- */
 .getintouch {
@@ -192,10 +275,11 @@ img {
 .footer {
   background: #bbb2a8;
   color: white;
-
   margin: 0 auto;
 }
 .footer p {
+  text-align: center;
+  color: white;
   padding: 80px 0px 20px 0px;
   font-size: 15px;
 }
@@ -245,6 +329,12 @@ img {
 
 /* ---------------------------------- */
 /* ----------- RESPONSIVE ------------- */
+
+@media (max-width: 1000px) {
+  .minihero {
+    display: none;
+  }
+}
 @media (max-width: 600px) {
   .hi {
     font-size: 40px;
@@ -288,5 +378,32 @@ img {
   p {
     text-align: center;
     font-size: 30px;
+  }
+  .built_with {
+    display: none;
+  }
+  .project_img {
+    margin: 15px auto;
+  }
+
+  .titlespec {
+    font-size: 40px;
+  }
+  .specializations {
+    margin: 0 40px;
+    text-align: center;
+  }
+  .specializations h2 {
+    font-size: 25px;
+  }
+  .specializations p {
+    font-size: 15px;
+  }
+  .hero2 {
+    padding: 20px;
+    text-align: center;
+  }
+  .hero2 p {
+    font-size: 20px;
   }
 }
