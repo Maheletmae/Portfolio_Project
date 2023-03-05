@@ -187,6 +187,11 @@ h6 {
   text-decoration: none;
   margin: 20px;
 }
+.linkabout:hover {
+  color: black;
+  text-decoration: none;
+  transform: scale(1.02);
+}
 .linkcontact {
   background: blueviolet;
   padding: 20px 30px;
@@ -195,11 +200,6 @@ h6 {
   text-decoration: none;
   margin: 20px;
   box-shadow: var(--box-shadow);
-}
-.linkabout:hover {
-  color: black;
-  text-decoration: none;
-  transform: scale(1.02);
 }
 .linkcontact:hover {
   color: aliceblue;
@@ -386,6 +386,7 @@ img {
 /*       */
 
 @media (max-width: 1060px) {
+  /* ------- RESPONSIVE about page ------- */
   .about-container1 {
     margin-top: 0px;
   }
@@ -419,6 +420,7 @@ img {
   }
 }
 @media (max-width: 600px) {
+  /* ------- RESPONSIVE homepage ------- */
   .hi {
     font-size: 40px;
   }
@@ -428,7 +430,21 @@ img {
   .message {
     font-size: 20px;
   }
-  .adjectives {
+
+  .hero {
+    padding: 50px 10px 110px 10px;
+  }
+  .row {
+    display: block;
+    margin: 50px auto;
+  }
+  .img-cover {
+    display: none;
+  }
+  .textblock-hero {
+    padding: 100px 0px 10px 0px;
+  }
+  .colors {
     text-align: center;
   }
 
@@ -438,55 +454,38 @@ img {
     margin: 0 auto;
     max-width: 100px;
     box-sizing: border-box;
-
     object-fit: contain;
     width: 100%;
   }
-  .hero {
-    padding: 50px 10px 110px 10px;
-  }
-  .row {
-    display: block;
-    margin: 50px auto;
-  }
-  .img1 {
-    display: none;
-  }
-  .textblock {
-    padding: 100px 0px 10px 0px;
-  }
-  .projects {
-    padding-top: 40px;
-  }
-  .projects p {
-    text-align: center;
-    font-size: 30px;
-  }
-  .built_with {
-    display: none;
-  }
-  .project_img {
-    margin: 15px auto;
-  }
 
-  .titlespec {
-    font-size: 40px;
-  }
-  .specializations {
-    margin: 0 40px;
-    text-align: center;
-  }
-  .specializations h2 {
-    font-size: 25px;
-  }
-  .specializations p {
-    font-size: 15px;
-  }
+  /* ------- RESPONSIVE portfolio page ------- */
+
   .hero2 {
     padding: 20px;
     text-align: center;
   }
   .hero2 p {
     font-size: 20px;
+  }
+
+  .project_img {
+    margin: 15px auto;
+  }
+  .built_with {
+    display: none;
+  }
+
+  .specializations-title {
+    font-size: 40px;
+  }
+  .specialization-container {
+    margin: 0 40px;
+    text-align: center;
+  }
+  .specialization-container h2 {
+    font-size: 25px;
+  }
+  .specialization-container p {
+    font-size: 15px;
   }
 }
