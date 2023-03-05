@@ -7,7 +7,16 @@
 }
 body {
   background: wheat;
-  font-family: var(--heading-font-family);
+  font-family: var(--default-font-family);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--default-font-family);
 }
 
 /*      ABOUT PAGE        */
@@ -25,7 +34,7 @@ body {
   background: #f9f7fe;
   border-radius: 20px;
   margin: 60px 140px;
-  padding: 49px 120px;
+  padding: 49px 120px 60px 120px;
 }
 .linkcontact-minihero {
   background: #6c63ff;
@@ -50,11 +59,15 @@ body {
   margin-bottom: 30px;
 }
 
-h3 {
-  color: rgb(77, 77, 77);
+.h3-mailtext {
+  color: rgb(65, 65, 65);
+  font-size: 70px;
 }
-h3:hover {
+.h3-mailtext:hover,
+.h3-mail-link:hover {
   text-decoration: none;
+  color: blueviolet;
+  transition: all 150ms ease-in-out;
 }
 .icons-container {
   display: block;
