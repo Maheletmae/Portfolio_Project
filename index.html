@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="CSS/style.css" />
     <meta
       name="description"
-      content="This is the landing page of Mahelet's website, a front-end developer and graphic designer from Switzerland. It shows her capacity to build a website with links and an attractive web design."
+      content="This is the landing page of Mahelet's website, a front-end developer and graphic designer from Switzerland. It shows her capacity to build a responsive website that contains links and an attractive web design."
     />
     <link
       rel="stylesheet"
@@ -48,7 +48,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>Mahelet Seleshi Portfolio</title>
+    <title>Mahelet Seleshi - My Portfolio</title>
   </head>
 
   <body>
@@ -94,7 +94,7 @@
 
     <br />
     <br />
-    <div class="links">
+    <div class="primary-links">
       <a href="about.html" class="linkabout" title="about me link">About</a>
       <a href="contact.html" class="linkcontact" title="contact link"
         >Contact</a
@@ -106,21 +106,21 @@
     <!----- PART 2 - BLOCK ----->
     <div class="hero h-100">
       <div class="row align-items-center h-100">
-        <div class="block1 col-sm-6">
+        <div class="col-sm-6">
           <img
             src="https://plus.unsplash.com/premium_photo-1664197369105-685307cffbe6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y3JvcXVpc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
             alt="croquis from Unsplash"
-            class="img1"
+            class="img1 image-fluid"
           />
         </div>
-        <div class="block2 col-sm-6">
-          <p class="textblock">
+        <div class="part2-hero col-sm-6">
+          <p class="textblock-hero">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
             aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
             qui alias veniam excepturi rem dolor fugit dignissimos, sed
             voluptatum blanditiis harum.
           </p>
-          <div class="adjectives">
+          <div class="colors">
             <button class="color1"></button>
             <button class="color2"></button>
             <button class="color3"></button>
@@ -131,7 +131,7 @@
     </div>
 
     <!---- PART 3 - PROJECTS & SPECIALIZATIONS ---->
-    <div class="container">
+    <div class="container-2img">
       <div class="row">
         <div class="col-sm-6">
           <h2>Skills</h2>
@@ -174,10 +174,18 @@
     <br />
     <br />
     <br />
-    <div class="footer">
-      <p>
-        Copyright ©2023 Mahelet Seleshi - This website is fully coded by me,
-        open-sourced on GitHub and hosted on Netlify.
+    <div class="footer text-center">
+      <div class="footerlinks d-flex justify-content-center">
+        <a href="/" class="footerlink">HOME</a> -
+        <a href="/about.html" class="footerlink">ABOUT</a> -
+        <a href="/portfolio.html" class="footerlink">PORTFOLIO</a> -
+        <a href="/contact.html" class="footerlink">CONTACT</a>
+      </div>
+      <p class="p-2" style="background-color: rgba(0, 0, 0, 0.2)">
+        ©2023 Copyright: Mahelet Seleshi - This website is coded individually,
+        open-sourced on
+        <a href="https://github.com/" class="brand-link">GitHub</a> and hosted
+        on <a href="https://netlify.com/" class="brand-link">Netlify</a>.
       </p>
     </div>
   </body>

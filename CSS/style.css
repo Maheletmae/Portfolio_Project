@@ -19,7 +19,11 @@ h6 {
   font-family: var(--default-font-family);
 }
 
+/*       */
+/*       */
 /*      ABOUT PAGE        */
+/*       */
+/*       */
 
 .name-about {
   font-size: 55px;
@@ -61,7 +65,9 @@ h6 {
 
 .h3-mailtext {
   color: rgb(65, 65, 65);
-  font-size: 70px;
+  font-family: var(--heading-font-family);
+  font-size: 28px;
+  font-weight: bold;
 }
 .h3-mailtext:hover,
 .h3-mail-link:hover {
@@ -88,7 +94,11 @@ h6 {
   background: #6c63ff;
 }
 
+/*       */
+/*       */
 /*      PORTFOLIO PAGE        */
+/*       */
+/*       */
 
 .hero2 {
   background: rgba(138, 43, 226, 0.1);
@@ -135,36 +145,13 @@ h6 {
   background-color: blueviolet;
   transform: scale(1.03);
 }
-.minihero2 {
-  background: #f9f7fe;
-  border-radius: 20px;
-  margin: 60px 140px;
-  padding: 49px 119px;
-}
-.minirow2 {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-.getintouch2 {
-  max-width: 300px;
-  text-align: center;
-  display: block;
-  margin: 50px auto;
-  padding: 15px 15px;
-  border: 1px solid white;
-  color: white;
-  border-radius: 15px;
-  background: blueviolet;
-  box-shadow: var(--box-shadow);
-}
-.getintouch2:hover {
-  color: blueviolet;
-  background-color: white;
-  transform: scale(1.03);
-}
 
+/*       */
+/*       */
 /* PART 1 - INTRO & LINKS*/
+/*       */
+/*       */
+
 .name {
   font-size: 80px;
   text-align: center;
@@ -187,7 +174,7 @@ h6 {
 .greenimg {
   max-width: 500px;
 }
-.links {
+.primary-links {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -220,15 +207,19 @@ h6 {
   transform: scale(1.02);
 }
 
+/*       */
+/*       */
 /* --- PART 2 - BLOCK --- */
+/*       */
+/*       */
+
 .hero {
   background: gainsboro;
   margin: 10px 0px 60px 0px;
-
   max-height: 750px;
 }
 
-.block2 {
+.part2-hero {
   padding: 0px 0px 40px 0px;
 }
 .img1 {
@@ -238,7 +229,7 @@ h6 {
   margin: 0px 60px 0px 0px;
 }
 
-.textblock {
+.textblock-hero {
   font-size: 25px;
   padding: 200px 0px 0px 0px;
   max-width: 450px;
@@ -267,22 +258,27 @@ h6 {
   border-radius: 4px;
   border: 1px solid gainsboro;
 }
-.adjectives:hover {
+.colors:hover {
   transform: scale(1.01);
 }
 
-.container {
+.container-2img {
   margin: 0 auto;
 }
-.container .row {
-  margin: 150px 0px;
+.container-2img .row {
+  margin: 150px 20px;
   box-sizing: border-box;
 }
 img {
   width: 100%;
 }
 
+/*       */
+/*       */
 /* --- PART 3 - PROJECTS & SPECIALIZATIONS --- */
+/*       */
+/*       */
+
 .getintouch {
   text-align: center;
   display: block;
@@ -300,21 +296,44 @@ img {
 }
 
 .footer {
-  background: #bbb2a8;
-  color: white;
+  background: #e0dbd5;
+  color: rgb(63, 63, 63);
   margin: 0 auto;
+  padding: 20px 0px 0px 0px;
+}
+.footerlinks {
+  padding: 70px;
+}
+.footerlink {
+  color: rgb(63, 63, 63);
+  font-weight: bold;
+  margin: 0px 10px;
+}
+.footerlink:hover {
+  text-decoration: none;
+  color: black;
+}
+.brand-link {
+  color: rgb(63, 63, 63);
+}
+.brand-link:hover {
+  text-decoration: none;
+  color: blue;
 }
 .footer p {
   text-align: center;
-  color: white;
+  margin: 0 auto;
+  color: rgb(63, 63, 63);
   padding: 80px 0px 20px 0px;
   font-size: 15px;
 }
-.footer p:hover {
-  color: black;
-}
 
+/*       */
+/*       */
 /* -------------- EXTERNAL OVERLAY CODE ---------- */
+/*       */
+/*       */
+
 .boxx {
   position: relative;
   width: 100%;
@@ -354,8 +373,17 @@ img {
   -ms-transform: translate(-50%, -50%);
 }
 
+/*       */
+/*       */
+/*       */
+/*       */
+/*       */
 /* ---------------------------------- */
 /* ----------- RESPONSIVE ------------- */
+/*       */
+/*       */
+/*       */
+/*       */
 
 @media (max-width: 1060px) {
   .about-container1 {
