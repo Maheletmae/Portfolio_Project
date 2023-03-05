@@ -20,38 +20,38 @@ body {
 .message-about {
   font-size: 18px;
 }
-.minihero .row {
-  margin: 0 auto;
-}
 
 .minihero {
   background: #f9f7fe;
   border-radius: 20px;
   margin: 60px 140px;
-  padding: 49px 119px;
+  padding: 49px 120px;
 }
 .linkcontact-minihero {
   background: #6c63ff;
-  padding: 20px 30px;
-  width: 100%;
-  border-radius: 10px;
   color: aliceblue;
   text-decoration: none;
-  margin: 0px;
   font-family: var(--default-font-family);
+  padding: 20px 30px;
+  margin: 0px;
+  width: 100%;
+  border-radius: 10px;
 }
 .linkcontact-minihero:hover {
   color: #f5f2fe;
   text-decoration: none;
 }
 .linkcontact-minihero-container {
-  margin: 30px 0px 0px 0px;
+  margin-top: 30px;
   display: block;
   text-align: end;
 }
+.worktogether {
+  margin-bottom: 30px;
+}
 
 h3 {
-  color: black;
+  color: rgb(77, 77, 77);
 }
 h3:hover {
   text-decoration: none;
@@ -66,9 +66,9 @@ h3:hover {
   border-radius: 50%;
   background: rgba(108, 99, 255, 0.05);
   color: #6c63ff;
-  margin: 0 10px;
-  padding: 10px 14px;
-  font-size: 18px;
+  margin: 0 30px;
+  padding: 17px 25px;
+  font-size: 28px;
 }
 .icon:hover {
   color: white;
@@ -165,9 +165,10 @@ h3:hover {
   text-align: center;
 }
 
-.firstparagraph {
+.firstparagraph-about {
   font-family: var(--default-font-family);
   color: rgba(39, 33, 66, 0.7);
+  margin: 24px 10px 60px 10px;
 }
 
 .greenimg {
@@ -343,9 +344,37 @@ img {
 /* ---------------------------------- */
 /* ----------- RESPONSIVE ------------- */
 
-@media (max-width: 1000px) {
+@media (max-width: 1060px) {
+  .about-container1 {
+    margin-top: 0px;
+  }
+  .name-about,
+  .message-about {
+    margin: 10px;
+  }
+  .firstparagraph-about {
+    margin-bottom: 20px;
+  }
+  .linkcontact {
+    text-align: end;
+    margin-bottom: 80px;
+  }
+  .greenimg {
+    margin-top: 40px;
+  }
   .minihero {
+    padding: 20px;
+    margin: 20px 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .linkcontact-minihero {
     display: none;
+  }
+  .footer p {
+    padding-top: 30px;
+    text-align: center;
   }
 }
 @media (max-width: 600px) {
@@ -388,7 +417,7 @@ img {
   .projects {
     padding-top: 40px;
   }
-  p {
+  .projects p {
     text-align: center;
     font-size: 30px;
   }
