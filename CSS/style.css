@@ -108,7 +108,7 @@ h6 {
 /*       */
 
 .hero2 {
-  background: rgba(138, 43, 226, 0.1);
+  background: #ebebebfa;
   margin: 50px 0px;
   padding: 120px 119px;
 }
@@ -253,7 +253,7 @@ h6 {
   border: 1px solid gainsboro;
 }
 .color2 {
-  background: gray;
+  background: rgb(63, 63, 63);
   padding: 15px 25px;
   border-radius: 4px;
   border: 1px solid gainsboro;
