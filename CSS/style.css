@@ -224,7 +224,7 @@ h6 {
 }
 .img-cover {
   width: auto;
-  text-align: center;
+  text-align: right;
   margin: 0 auto;
 }
 .img1 {
@@ -410,6 +410,10 @@ img {
     text-align: end;
     margin-bottom: 80px;
   }
+  .textblock-hero {
+    background: gainsboro;
+    padding: 205px 20px 40px 30px;
+  }
   .greenimg {
     margin-top: 40px;
   }
@@ -426,6 +430,7 @@ img {
   .footer p {
     padding-top: 30px;
     text-align: center;
+    font-size: smaller;
   }
 }
 @media (max-width: 600px) {
@@ -441,17 +446,18 @@ img {
   }
 
   .hero {
-    padding: 40px 10px 30px 10px;
+    padding: 10px 10px 30px 10px;
   }
   .row {
     display: block;
-    margin: 50px auto;
+    margin: 40px auto;
   }
   .img-cover {
     display: none;
   }
   .textblock-hero {
     padding: 100px 0px 10px 0px;
+    text-align: center;
   }
   .colors {
     text-align: center;
