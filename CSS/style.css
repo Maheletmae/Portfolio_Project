@@ -10,6 +10,7 @@ body {
   font-family: var(--default-font-family);
 }
 h1,
+p,
 h2,
 h3,
 h4,
@@ -17,6 +18,9 @@ h5,
 h6 {
   color: black;
   font-family: var(--default-font-family);
+}
+.contact-body {
+  background: #ebebebfa;
 }
 
 /*       */
@@ -29,6 +33,9 @@ h6 {
   font-size: 55px;
   font-weight: 700;
   font-family: var(--heading-font-family);
+}
+.name-about:hover {
+  color: #6c63ff;
 }
 .message-about {
   font-size: 18px;
