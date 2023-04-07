@@ -127,7 +127,7 @@ h6 {
   font-size: 60px;
   font-family: var(--heading-font-family);
 }
-.specializations {
+.specialization-container {
   margin: 0px 80px;
 }
 .getintouch {
@@ -221,6 +221,11 @@ h6 {
 
 .part2-hero {
   padding: 0px 0px 40px 0px;
+}
+.img-cover {
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
 }
 .img1 {
   max-width: 500px;
@@ -397,6 +402,10 @@ img {
   .firstparagraph-about {
     margin-bottom: 20px;
   }
+  .linkabout {
+    text-align: end;
+    margin-bottom: 80px;
+  }
   .linkcontact {
     text-align: end;
     margin-bottom: 80px;
@@ -432,7 +441,7 @@ img {
   }
 
   .hero {
-    padding: 50px 10px 110px 10px;
+    padding: 40px 10px 30px 10px;
   }
   .row {
     display: block;
