@@ -107,6 +107,21 @@ h6 {
 /*       */
 /*       */
 
+.carousel-inner {
+  border-radius: 20px;
+}
+.carousel-item {
+  max-width: 800px;
+}
+.carousel-item .item2 {
+  max-width: 100px;
+}
+.carousel-item h5 {
+  background: rgb(63, 63, 63, 0.8);
+  padding: 10px 15px;
+  color: #e0dbd5;
+}
+
 .hero2 {
   background: #ebebebfa;
   margin: 50px 0px;
@@ -136,6 +151,9 @@ h6 {
 }
 .specialization-container {
   margin: 0px 80px;
+}
+.specialization-container h2 {
+  font-size: 25px;
 }
 .getintouch {
   text-align: center;
@@ -431,7 +449,8 @@ img {
     font-size: 18px;
     line-height: 30px;
   }
-  .linkcontact-minihero {
+
+  .minihero {
     display: none;
   }
   .footer p {
