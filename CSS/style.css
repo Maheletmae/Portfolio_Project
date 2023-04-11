@@ -11,16 +11,40 @@ body {
 }
 h1,
 p,
+li,
 h2,
 h3,
 h4,
 h5,
 h6 {
   color: black;
+  font-family: var(--heading-font-family);
+}
+div {
+  font-family: var(--default-font-family);
+}
+.col-md-5 p,
+h3 {
+  font-family: var(--default-font-family);
+}
+.col-md-3 h2 {
   font-family: var(--default-font-family);
 }
 .contact-body {
-  background: #ebebebfa;
+  background: #f4f4f3;
+}
+.navbar {
+  padding: 0px 10px !important;
+  font-size: 18px;
+}
+.navbar .navbar-nav .nav-item .active a {
+  color: #1f1f1f !important;
+}
+.navbar .navbar-nav .nav-item a {
+  color: black !important;
+}
+.navbar .navbar-nav .nav-item a:hover {
+  transform: scale(1.03);
 }
 
 /*       */
@@ -79,7 +103,7 @@ h6 {
 .h3-mailtext:hover,
 .h3-mail-link:hover {
   text-decoration: none;
-  color: blueviolet;
+  color: #6c63ff;
   transition: all 150ms ease-in-out;
 }
 .icons-container {
@@ -127,6 +151,9 @@ h6 {
   margin: 50px 0px;
   padding: 120px 119px;
 }
+.hero22 {
+  background: #b3afaa56;
+}
 
 .project_img {
   border-radius: 20px;
@@ -139,7 +166,7 @@ h6 {
   color: gray;
 }
 .learnmore-btn {
-  background: blueviolet;
+  background: #6c63ff;
   color: #f5f2fe;
   border: none;
   padding: 8px 15px;
@@ -160,14 +187,14 @@ h6 {
   display: block;
   margin: 50px auto;
   padding: 25px 50px;
-  border: 2px solid blueviolet;
+  border: 2px solid #6c63ff;
   border-radius: 20px;
   background: white;
   box-shadow: var(--box-shadow);
 }
 .getintouch:hover {
   color: white;
-  background-color: blueviolet;
+  background-color: #6c63ff;
   transform: scale(1.03);
 }
 
@@ -265,7 +292,7 @@ h6 {
   max-width: 450px;
 }
 .color1 {
-  background: blueviolet;
+  background: #6c63ff;
   padding: 15px 25px;
   border-radius: 4px;
   border: 1px solid gainsboro;
@@ -314,19 +341,19 @@ img {
   display: block;
   margin: 50px auto;
   padding: 25px 50px;
-  border: 2px solid blueviolet;
+  border: 2px solid #6c63ff;
   border-radius: 20px;
   background: white;
   box-shadow: var(--box-shadow);
 }
 .getintouch:hover {
   color: white;
-  background-color: blueviolet;
+  background-color: #6c63ff;
   transform: scale(1.03);
 }
 
 .footer {
-  background: #e0dbd5;
+  background: gainsboro;
   color: rgb(63, 63, 63);
   margin: 0 auto;
   padding: 20px 0px 0px 0px;
@@ -380,7 +407,7 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: blueviolet;
+  background-color: #6c63ff;
   overflow: hidden;
   width: 0;
   height: 100%;
