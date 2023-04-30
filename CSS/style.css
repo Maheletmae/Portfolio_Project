@@ -70,8 +70,24 @@ h3 {
 .minihero {
   background: #f9f7fe;
   border-radius: 20px;
-  margin: 60px 140px;
+  margin: 80px 140px;
   padding: 49px 120px 60px 120px;
+  text-align: center;
+}
+.minihero2 {
+  background: #f9f7fe;
+  border-radius: 20px;
+  margin: 80px 140px;
+  padding: 50px 120px 50px 120px;
+}
+.minihero p {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.linkcontact-minihero-container {
+  margin-top: 30px;
+  display: block;
+  text-align: end;
 }
 .linkcontact-minihero {
   background: #6c63ff;
@@ -87,11 +103,7 @@ h3 {
   color: #f5f2fe;
   text-decoration: none;
 }
-.linkcontact-minihero-container {
-  margin-top: 30px;
-  display: block;
-  text-align: end;
-}
+
 .worktogether {
   margin-bottom: 30px;
 }
@@ -384,7 +396,9 @@ img {
   color: rgb(63, 63, 63);
   font-weight: bold;
   margin: 0px 10px;
+  font-size: 25px;
 }
+
 .footerlink:hover {
   text-decoration: none;
   color: black;
@@ -393,7 +407,6 @@ img {
   color: rgb(63, 63, 63);
 }
 .brand-link:hover {
-  text-decoration: none;
   color: blue;
 }
 .footer p {
@@ -401,7 +414,11 @@ img {
   margin: 0 auto;
   color: rgb(63, 63, 63);
   padding: 80px 0px 20px 0px;
-  font-size: 15px;
+  font-size: 20px !important;
+}
+.footer p:hover {
+  text-decoration: double;
+  color: black;
 }
 
 /*       */
@@ -495,14 +512,27 @@ img {
     font-size: 18px;
     line-height: 30px;
   }
+  .minihero2 {
+    padding: 20px;
+    margin: 20px 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+  }
 
   .minihero {
     display: none;
   }
+  .minihero2 {
+    display: none;
+  }
+  .footerlink {
+    font-size: 15px;
+  }
   .footer p {
     padding-top: 30px;
     text-align: center;
-    font-size: smaller;
+    font-size: 10px;
   }
 }
 @media (max-width: 600px) {
