@@ -9,6 +9,9 @@ body {
   background: wheat;
   font-family: var(--default-font-family);
 }
+p {
+  text-align: justify;
+}
 h1,
 p,
 li,
@@ -57,10 +60,9 @@ h3 {
   font-size: 55px;
   font-weight: 700;
   font-family: var(--heading-font-family);
-}
-.name-about:hover {
   color: #6c63ff;
 }
+
 .message-about {
   font-size: 18px;
 }
