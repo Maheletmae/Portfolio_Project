@@ -57,14 +57,17 @@ h3 {
 /*       */
 
 .name-about {
-  font-size: 55px;
+  font-size: 65px;
   font-weight: 700;
   font-family: var(--heading-font-family);
   color: #6c63ff;
 }
+.name-about:hover {
+  color: #5047ff;
+}
 
 .message-about {
-  font-size: 18px;
+  font-size: 23px;
 }
 
 .minihero {
@@ -191,11 +194,45 @@ h3 {
   font-family: var(--heading-font-family);
 }
 .specialization-container {
-  margin: 0px 80px;
+  margin: 20px 80px;
 }
-.specialization-container h2 {
-  font-size: 25px;
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
 }
+.item {
+  width: 200px;
+  height: 600px;
+  background-position: center;
+  background-size: 75vh;
+  margin: 20px;
+  border-radius: 60px;
+  display: inline-block;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item:hover {
+  filter: grayscale(100%);
+  width: 25vw;
+  transition: width 0.5s ease;
+}
+.hide {
+  display: none;
+}
+
+.item:hover + .hide {
+  display: block;
+  text-decoration: double;
+  font-size: 20px;
+}
+
 .getintouch {
   text-align: center;
   display: block;
