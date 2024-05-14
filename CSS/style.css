@@ -454,6 +454,10 @@ img {
   padding: 15px 0px !important;
   font-size: 18px !important;
 }
+.footer .footerlinks p {
+  padding: 0px !important;
+  margin: 0px;
+}
 .footer p:hover {
   text-decoration: double;
   color: black;
