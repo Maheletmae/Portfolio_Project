@@ -434,7 +434,7 @@ img {
   color: rgb(63, 63, 63);
   font-weight: bold;
   margin: 0px 10px;
-  font-size: 22px;
+  font-size: 22px !important;
 }
 
 .footerlink:hover {
@@ -447,7 +447,7 @@ img {
 .brand-link:hover {
   color: blue;
 }
-.footer p {
+.down-footer {
   text-align: center;
   margin: 0 auto;
   color: rgb(63, 63, 63);
@@ -455,10 +455,10 @@ img {
   font-size: 18px !important;
 }
 .footer .footerlinks p {
-  padding: 0px !important;
-  margin: 0px;
+  padding: 3px 0px 0px 0px !important;
+  margin: 0;
 }
-.footer p:hover {
+.down-footer:hover {
   text-decoration: double;
   color: black;
 }
@@ -571,7 +571,7 @@ img {
   .footerlink {
     font-size: 15px;
   }
-  .footer p {
+  .down-footer {
     padding-top: 30px;
     text-align: center;
     font-size: 10px;
