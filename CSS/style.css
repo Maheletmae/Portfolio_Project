@@ -327,12 +327,8 @@ h3 {
 .hero {
   background: gainsboro;
   margin: 10px 0px 60px 0px;
-  max-height: 750px;
 }
 
-.part2-hero {
-  padding: 0px 0px 40px 0px;
-}
 .img-cover {
   width: auto;
   text-align: right;
@@ -355,7 +351,6 @@ h3 {
 
 .textblock-hero {
   font-size: 25px;
-  padding: 100px 0px 0px 0px;
   max-width: 450px;
 }
 .color1 {
@@ -549,8 +544,14 @@ img {
     margin-bottom: 80px;
   }
   .textblock-hero {
-    background: gainsboro;
-    padding: 205px 20px 40px 30px;
+    padding: 20px 20px 20px 30px;
+    text-align: center;
+  }
+  .colors {
+    text-align: center;
+  }
+  .roww {
+    background-color: #dcdcdc;
   }
   .greenimg {
     margin-top: 40px;
@@ -606,13 +607,6 @@ img {
   }
   .img-cover {
     display: none;
-  }
-  .textblock-hero {
-    padding: 100px 0px 10px 0px;
-    text-align: center;
-  }
-  .colors {
-    text-align: center;
   }
 
   img {
