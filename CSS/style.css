@@ -403,7 +403,36 @@ img {
 
 /*       */
 /*       */
-/* --- PART 3 - PROJECTS & SPECIALIZATIONS --- */
+/* --- PART 3 - QUOTE --- */
+/*       */
+/*       */
+
+span {
+  color: #8a2be2;
+  font-style: italic;
+}
+.quote-part1 {
+  padding-top: 20px;
+  text-align: center;
+  text-decoration: wavy;
+}
+
+.carousel {
+  max-width: 300px;
+  text-align: center;
+}
+
+.credits {
+  color: #3b3b3b;
+  font-size: 14px;
+}
+.credits:hover {
+  color: #1f1f1f;
+}
+
+/*       */
+/*       */
+/* --- PART 4 - PROJECTS & SPECIALIZATIONS --- */
 /*       */
 /*       */
 
@@ -550,9 +579,7 @@ img {
   .colors {
     text-align: center;
   }
-  .roww {
-    background-color: #dcdcdc;
-  }
+
   .greenimg {
     margin-top: 40px;
   }
