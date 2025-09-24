@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "217033580344",
+    "project_id": "mae-portfolio-817de",
+    "storage_bucket": "mae-portfolio-817de.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217033580344:android:fb7a2a4dd247a96a48abcd",
+        "android_client_info": {
+          "package_name": "com.maheletmae.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9-lu1iQjSvEg0GdA5AF0AmUwXOAINQUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
